@@ -1,0 +1,79 @@
+Vad är en "New Issue" på GitHub? 🤔
+
+En "Issue" på GitHub är som en uppgift, diskussion eller problemrapport som hjälper utvecklare att hålla reda på buggar, förslag, uppgifter och andra förbättringar som behövs för ett projekt. Issues används främst för att underlätta samarbete mellan projektmedlemmar, hålla ordning och för att spåra projektets framsteg. 🚀
+
+När du skapar en New Issue är det som att du skapar en "att göra"-post för projektet eller en plats där andra kan diskutera ett problem eller idé. Issues kan ha etiketter, tilldelas till olika medlemmar och även kopplas till kodändringar (pull requests). 👩‍💻👨‍💻
+
+Funktionalitet 🎯
+Diskutera problem och förslag: Issues ger en plattform där utvecklare och andra användare kan diskutera problem eller förslag till förbättringar i ett projekt.
+Följa status: Du kan spåra framstegen för en specifik issue från "öppen" (open) till "stängd" (closed), vilket visar när problemet är löst eller uppgiften är klar.
+Tilldela ansvar: En issue kan tilldelas till specifika personer som är ansvariga för att lösa problemet eller implementera förslaget.
+Koppla till kodändringar: En issue kan länkas till pull requests som löser problemet, vilket hjälper att hålla en tydlig översikt över vad som åtgärdas i koden.
+Syfte 🛠️
+Syftet med issues är att ge utvecklare och användare ett enkelt sätt att:
+
+Rapporterar buggar 🐞
+Föreslår nya funktioner eller förbättringar ✨
+Diskuterar specifika problem eller förändringar i projektet 🗣️
+Spårar statusen för olika uppgifter ✅
+Samarbetar och kommunicerar effektivt 💬
+Hur skapar man en "Good First Issue"? 📝
+En "Good First Issue" är en enkel uppgift som är bra för nybörjare eller utvecklare som är nya i ett projekt. Målet är att göra det lätt för nya bidragsgivare att komma igång.
+
+Tips för att skapa en "Good First Issue":
+Var tydlig och specifik: Beskriv exakt vad som behöver göras, vad problemet är, eller vad som ska uppnås. Undvik vaga eller breda beskrivningar. Använd exempel eller länkar till kod om det hjälper.
+
+Exempel:
+❌ "Fixa buggen i filhanteraren."
+✅ "När en användare laddar upp en bild med en ogiltig filtyp, bör systemet visa ett felmeddelande istället för att krascha."
+
+Förklara bakgrunden: Ge tillräckligt med kontext så att en ny person kan förstå sammanhanget. Förklara varför uppgiften är viktig och hur den bidrar till projektet.
+
+Inkludera en checklista: Om det finns flera steg för att lösa problemet, skapa en enkel checklista som gör det lättare att se vad som behöver göras.
+
+Exempel:
+
+ Uppdatera filen imageUploader.js för att hantera filtypvalidering.
+ Lägg till ett felmeddelande när filtypen inte stöds.
+Länka till relevant dokumentation eller kod: Om det finns relaterad dokumentation, kod, eller issues, inkludera länkar så att personen som tar sig an uppgiften lätt kan hitta information.
+
+Ge exempel på input/output: Om din issue handlar om ett programfel, visa exempel på input och output så att det är lättare att förstå vad som går fel och hur det ska lösas.
+
+Bjud in till diskussion: Ange att nya bidragsgivare är välkomna att ställa frågor om de behöver hjälp eller förtydliganden. En issue är inte bara en uppgift – det är också en plats för samarbete.
+
+Exempel på en Issue om Linux-kommandon 🐧
+Titel: Lägg till stöd för du och df i backup-skriptet
+Beskrivning:
+Vi behöver utöka vårt Linux-backupskript för att inkludera kommandona du och df för att ge bättre rapportering om diskens användning och tillgängligt utrymme efter att en backup har körts.
+
+Bakgrund:
+
+Vårt nuvarande backup-skript komprimerar filer men visar inte hur mycket diskutrymme som används innan eller efter backupen. Detta gör det svårt att avgöra om backupen påverkar systemets tillgängliga resurser.
+Mål:
+
+Använd kommandot df -h för att visa diskens tillgängliga utrymme innan och efter backupen körs.
+Använd kommandot du -sh för att visa hur mycket utrymme den komprimerade filen tar upp.
+Steg att följa:
+ Lägg till kommandot df -h i början och slutet av skriptet för att visa diskens status.
+ Lägg till kommandot du -sh för att visa storleken på backupfilen.
+ Testa skriptet för att se till att de nya kommandona fungerar korrekt.
+Länkar till relaterad dokumentation:
+Linux man-sida för df
+Linux man-sida för du
+Bra första issue! Om du är ny till projektet, känn dig fri att ställa frågor här om du behöver hjälp att komma igång.
+
+Frågor och Svar om GitHub Issues 🤓
+Vad är syftet med en issue på GitHub?
+
+Issues hjälper till att hålla reda på problem, idéer och uppgifter i ett projekt, så att alla som deltar kan förstå vad som behöver göras.
+Vad är en "Good First Issue"?
+
+En "Good First Issue" är en enkel uppgift som är bra för nya bidragsgivare eller de som är nya i projektet.
+Vilka är de viktigaste delarna i en bra issue?
+
+En bra issue innehåller en tydlig beskrivning av problemet, en bakgrund till varför det är viktigt, en checklista över vad som behöver göras, och länkar till relevant information.
+💡 Tips för att skriva din första issue:
+
+Håll det enkelt och tydligt.
+Ge alltid bakgrundsinformation.
+Glöm inte att vara vänlig och uppmuntrande till nya bidragsgivare!
